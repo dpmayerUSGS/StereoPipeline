@@ -781,7 +781,7 @@ if __name__ == '__main__':
 
                 if (isinstance(option_dict[var], int)    or
                     isinstance(option_dict[var], float)  or
-                    isinstance(option_dict[var], basestring)):
+                    isinstance(option_dict[var], str)):
                     # For int, float, and string, append together with value
                     extra_args.append(arg)
                     extra_args.append(str(option_dict[var]))
